@@ -1,3 +1,6 @@
+{% extends 'base.html' %}
+
+{% block content %}
 <title>
 <span class="badge badge-info">About Me</span>
 </title>
@@ -9,7 +12,7 @@
     <h5 class="mt-0 mb-1"></h5>
     I am looking forward to all that I am learning. It is truly a fast course.
   </div>
-  <img src="../img/1.jpg" class="img-thumbnail" alt="this is me" height="330" width="180">
+  <img src="/images/me.jpg" class="img-thumbnail" alt="picture_of_me" height="330" width="180">
 </div>
 <ul class="list-group">
   <li class="list-group-item list-group-item-secondary">My first experience with HTML began ....... </li>
@@ -20,7 +23,6 @@
   <li class="list-group-item list-group-item-dark">Wordpress Plugins</li>
   <li class="list-group-item list-group-item-secondary">Become the most familiar on my current team with Visual Composer...</li>
   <li class="list-group-item list-group-item-dark">Most recently understand DNS zones in a domain registar, this is also were I had my first introduction to IP TTL and CNAME records  .... </li>
-  
-  
+    
 </ul>
-
+{% endblock content %}
